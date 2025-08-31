@@ -10,8 +10,8 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
+- Nome: Gabrielle Neves Rodrigues 
+- Matricula: 902697
 - Proposta de projeto escolhida:
 - Breve descrição sobre seu projeto:
 
