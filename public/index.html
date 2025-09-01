@@ -4,81 +4,160 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Velas Respirar</title>
-  <link rel="stylesheet" href="style.css">
+
+   <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f6;
+      color: #444;
+    }
+
+    /* Menu */
+    header {
+      background: #7a8450;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav input {
+      padding: 0.4rem;
+      border-radius: 5px;
+      border: none;
+    }
+
+    /* Hero */
+    .hero {
+      text-align: center ;
+      padding: 5rem 2rem;
+      background: #cfd5b2;
+    }
+
+    .hero img {
+      max-width: 750px;
+      border-radius: 15px;
+      margin-bottom: 1rem;
+    }
+
+    .hero button {
+      background: #7a8450;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .hero button:hover {
+      background: #5d633d;
+    }
+
+    /* Promoção */
+    .promo {
+      text-align: center;
+      padding: 2rem;
+      background: #fff;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #7a8450;
+    }
+
+    /* Sobre nós */
+    .sobre {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 2rem;
+      padding: 3rem 2rem;
+      background: #f1f1ed;
+    }
+
+    .sobre img {
+      max-width: 200px;
+      border-radius: 15px;
+    }
+
+    .sobre div {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .sobre h2 {
+      color: #7a8450;
+    }
+
+    /* Rodapé */
+    footer {
+      background: #7a8450;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
-  <!-- Cabeçalho -->
+
+  <!-- Menu -->
   <header>
-    <div class="logo">
-      <h1>Velas Respirar</h1>
-    </div>
+    <h1>Velas Respirar</h1>
     <nav>
-      <ul>
-        <li><a href="#inicio">Início</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#produtos">Produtos</a></li>
-        <li><a href="#cadastro">Cadastro</a></li>
-        <li><a href="#pedido">Acompanhar Pedido</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
+      <a href="#inicio">Início</a>
+      <a href="#loja">Loja</a>
+      <a href="#pedidos">Pedidos</a>
+      <input type="text" placeholder="Pesquisar...">
     </nav>
   </header>
 
-  <!-- Seção Início -->
-  <section id="inicio" class="hero">
-    <h2>Bem-vindo à Velas Respirar</h2>
-    <p>Velas aromáticas minimalistas que transformam seu ambiente em um espaço de paz.</p>
+  <!-- Hero -->
+  <section class="hero" id="inicio">
+    <img src= vela2.jpg alt="Velas Aromáticas">
+      <br>
+    <button>Comprar Agora</button>
   </section>
 
-  <!-- Seção Sobre -->
-  <section id="sobre">
-    <h2>Sobre a marca</h2>
-    <p>A Velas Respirar nasceu do desejo de trazer leveza e aconchego para os lares, unindo aromas suaves e design minimalista em tons naturais.</p>
+  <!-- Promoção -->
+  <section class="promo">
+    Cadastre-se e ganhe <strong>10% de desconto</strong> na sua primeira compra!
   </section>
 
-  <!-- Seção Produtos -->
-  <section id="produtos">
-    <h2>Nossos Produtos</h2>
-    <div class="produtos-grid">
-      <div class="produto-card">Vela Lavanda</div>
-      <div class="produto-card">Vela Eucalipto</div>
-      <div class="produto-card">Vela Baunilha</div>
+  <!-- Sobre nós -->
+  <section class="sobre" id="sobre">
+    <img src= vela.jpg alt="Nossa marca">
+    <div>
+      <h2>Sobre Nós</h2>
+      <p>A <strong>Velas Respirar</strong> nasceu com o propósito de transformar ambientes em refúgios de paz e aconchego. Criamos velas aromáticas minimalistas, feitas com carinho e materiais naturais.</p>
+      <p><strong>Contato:</strong><br>
+      Email: contato@velasrespirar.com<br>
+      Instagram: @velasrespirar</p>
     </div>
-  </section>
-
-  <!-- Cadastro -->
-  <section id="cadastro">
-    <h2>Cadastro de Cliente</h2>
-    <form>
-      <input type="text" placeholder="Nome completo" required>
-      <input type="email" placeholder="E-mail" required>
-      <input type="password" placeholder="Senha" required>
-      <button type="submit">Cadastrar</button>
-    </form>
-  </section>
-
-  <!-- Acompanhar Pedido -->
-  <section id="pedido">
-    <h2>Acompanhar Pedido</h2>
-    <form>
-      <input type="text" placeholder="Digite o número do pedido" required>
-      <button type="submit">Consultar</button>
-    </form>
-  </section>
-
-  <!-- Contato -->
-  <section id="contato">
-    <h2>Fale Conosco</h2>
-    <p>Email: contato@velasrespirar.com.br</p>
-    <p>Instagram: @velasrespirar</p>
   </section>
 
   <!-- Rodapé -->
   <footer>
-    <p>© 2025 Velas Respirar - Todos os direitos reservados</p>
+    © 2025 Velas Respirar - Todos os direitos reservados
   </footer>
+
 </body>
 </html>
-
-
-

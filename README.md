@@ -12,15 +12,14 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 - Nome: Gabrielle Neves Rodrigues 
 - Matricula: 902697
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Proposta de projeto escolhida: Criação de um site da minha marca de velas já existente
+- Breve descrição sobre seu projeto: criar um site funcional que me ajude nas vendar dos mes produtos artesanais e que crie um vinculo mais profissional com a minha marca, que atualmente é muito conhecida na minha bolha social apenas.
 
 
 ## Print do(s) wireframe(s) criado
 
-<<  COLOQUE A IMAGEM AQUI >>
-
+![alt text](image.png)
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](Notes_250831_172348.jpg)
